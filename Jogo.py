@@ -45,7 +45,7 @@ while True:
     tela.fill((255, 255, 255))
     fps.tick(10)
 
-# ~~~~~~~~~~~~~~Controla os eventos do jogo~~~~~~~~~~~~~~~
+# ~~~~~~~~~~~~~~Controles~~~~~~~~~~~~~~~
     for event in pg.event.get():
         if event.type == QUIT:
             pg.quit()

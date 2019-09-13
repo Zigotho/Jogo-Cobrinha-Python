@@ -24,7 +24,7 @@ print(funcionando)
 
 pg.init()
 tela = pg.display.set_mode((largura, altura))
-pg.display.set_caption("Cobrinha")
+pg.display.set_caption("Jogo da Cobra")
 pg.display.set_icon(Desenhos.icone)
 pg.font.init()
 fonte_padrao = pg.font.get_default_font()

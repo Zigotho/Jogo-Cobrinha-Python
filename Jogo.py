@@ -65,7 +65,7 @@ while True:
                 Dourada = False
                 maca = Desenhos.maca
 
-# ~~~~~~~~~~~~~~Controla as colisoes~~~~~~~~~~~~~~~
+# ~~~~~~~~~~~~~~Controle das colisoes~~~~~~~~~~~~~~~
     # ~~~~~~~~~~~~~~Colisao com a maça~~~~~~~~~~~~~~~
     if colisao(cobra[0], maca_pos):
         maca_pos = no_grid_aleatorio()

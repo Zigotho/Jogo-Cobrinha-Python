@@ -11,7 +11,6 @@ largura = 800
 class cobra:
     Imagem_cobra = pg.image.load(caminho + 'cobra/cobra.png')
     rectCobra = Imagem_cobra.get_rect()
-    Imagem_cobra_cabeca = pg.image.load(caminho + 'cobra/cobraCabeca.png')
 
     @staticmethod
     def getcobra_pos():

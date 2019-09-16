@@ -43,7 +43,7 @@ fps = pg.time.Clock()
 direcao = esquerda
 while True:
     tela.fill((255, 255, 255))
-    fps.tick(10)
+    fps.tick(15)
 
 # ~~~~~~~~~~~~~~Controles~~~~~~~~~~~~~~~
     for event in pg.event.get():
@@ -124,9 +124,8 @@ while True:
     tela.blit(mato, (160, 160))
     # ~~~~~~~~~~~~~~Desenha player~~~~~~~~~~~~~~~
 
-    for pos in range(len(cobra)-1):
+    for pos in range(len(cobra)):
         tela.blit(cobra_skin, cobra[pos])
-    tela.blit(Desenhos.cobra.Imagem_cobra_cabeca, cobra[0])
     # ~~~~~~~~~~~~~~Desenha Objetivo~~~~~~~~~~~~~~~
     tela.blit(maca, maca_pos)
     # ~~~~~~~~~~~~~~Desenhar a parede~~~~~~~~~~~~~~~
